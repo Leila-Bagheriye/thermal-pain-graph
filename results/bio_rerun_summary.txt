@@ -1,0 +1,4 @@
+gsr|lr|norm1|BL1,PA4  folds=87  acc=0.8365 ± 0.1462  f1=0.8337
+gsr|rf|norm1|BL1,PA4  folds=87  acc=0.8385 ± 0.1548  f1=0.8375
+gsr,ecg|lr|norm1|BL1,PA4  folds=87  acc=0.8348 ± 0.1442  f1=0.8327
+gsr,ecg|lr|norm0|BL1,PA4  folds=87  acc=0.8204 ± 0.1404  f1=0.8137

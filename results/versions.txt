@@ -1,0 +1,14 @@
+python 3.10.21
+platform Linux-5.15.0-176-generic-x86_64-with-glibc2.35
+torch 2.4.0+cu121 cuda 12.1 cudnn 90100
+gpu Quadro RTX 6000
+torchvision 0.19.0+cu121
+numpy 2.2.5
+scipy 1.15.3
+sklearn 1.7.2
+pandas 2.3.3
+cv2 4.14.0
+matplotlib 3.10.9
+facenet-pytorch 2.5.3
+CPU(s):                                  64
+Model name:                              Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz

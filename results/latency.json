@@ -1,0 +1,51 @@
+{
+  "n_frames": 28,
+  "cpu_threads": 4,
+  "gpu": "Quadro RTX 6000",
+  "stages_ms": {
+    "cuda/resnet18": {
+      "detect_per_frame": 32.62,
+      "detect_clip": 913.42,
+      "encode_clip": 12.99,
+      "head_clip": 1.05,
+      "total_clip": 927.46,
+      "total_excluding_detection": 14.04,
+      "params_backbone": 11176512,
+      "params_head": 126212,
+      "size_MB_fp32": 45.2
+    },
+    "cuda/mobilenet_v3_small": {
+      "detect_per_frame": 32.62,
+      "detect_clip": 913.42,
+      "encode_clip": 6.56,
+      "head_clip": 1.06,
+      "total_clip": 921.03,
+      "total_excluding_detection": 7.61,
+      "params_backbone": 927008,
+      "params_head": 134404,
+      "size_MB_fp32": 4.2
+    },
+    "cpu/resnet18": {
+      "detect_per_frame": 55.64,
+      "detect_clip": 1557.8,
+      "encode_clip": 439.89,
+      "head_clip": 7.41,
+      "total_clip": 2005.1,
+      "total_excluding_detection": 447.3,
+      "params_backbone": 11176512,
+      "params_head": 126212,
+      "size_MB_fp32": 45.2
+    },
+    "cpu/mobilenet_v3_small": {
+      "detect_per_frame": 55.64,
+      "detect_clip": 1557.8,
+      "encode_clip": 44.97,
+      "head_clip": 7.43,
+      "total_clip": 1610.2,
+      "total_excluding_detection": 52.4,
+      "params_backbone": 927008,
+      "params_head": 134404,
+      "size_MB_fp32": 4.2
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "crop_dir": "../crops_v2",
+  "out_dir": "runs/finetune_loso",
+  "n_frames": 8,
+  "folds": 5,
+  "epochs": 12,
+  "bs": 8,
+  "lr_backbone": 0.0001,
+  "lr_head": 0.0003,
+  "unfreeze": "layer4",
+  "seed": 0,
+  "loso": 1
+}

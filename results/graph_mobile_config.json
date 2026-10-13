@@ -1,0 +1,16 @@
+{
+  "crop_dir": "../crops_v2",
+  "out_dir": "runs/graph_mobile",
+  "model": "graph",
+  "epochs": 30,
+  "bs": 32,
+  "lr": 0.0003,
+  "hidden": 128,
+  "win": 2,
+  "subjnorm": 1,
+  "shuffle_labels": 0,
+  "max_folds": 0,
+  "seed": 0,
+  "backbone": "mobilenet_v3_small",
+  "n_frames": 0
+}

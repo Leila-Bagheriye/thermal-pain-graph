@@ -1,0 +1,95 @@
+{
+  "video_run": "runs/finetune_loso",
+  "trials": 3439,
+  "subjects": 86,
+  "eda": {
+    "acc_mean": 0.840891472868217,
+    "acc_std": 0.14112200305554576,
+    "f1_mean": 0.8384670043182935,
+    "pooled_acc": 0.8409421343413783,
+    "confusion_[[TN,FP],[FN,TP]]": [
+      [
+        1514,
+        205
+      ],
+      [
+        342,
+        1378
+      ]
+    ]
+  },
+  "video": {
+    "acc_mean": 0.6499403697078115,
+    "acc_std": 0.15792025994716172,
+    "f1_mean": 0.6213203715429438,
+    "pooled_acc": 0.6498982262285549,
+    "confusion_[[TN,FP],[FN,TP]]": [
+      [
+        1230,
+        489
+      ],
+      [
+        715,
+        1005
+      ]
+    ],
+    "diff_vs_eda_mean": -0.19095110316040545,
+    "participants_better_same_worse": [
+      8,
+      1,
+      77
+    ]
+  },
+  "mean": {
+    "acc_mean": 0.8382901013714968,
+    "acc_std": 0.1313512100432424,
+    "f1_mean": 0.8327748348258719,
+    "pooled_acc": 0.8383250945042163,
+    "confusion_[[TN,FP],[FN,TP]]": [
+      [
+        1509,
+        210
+      ],
+      [
+        346,
+        1374
+      ]
+    ],
+    "diff_vs_eda_mean": -0.002601371496720323,
+    "participants_better_same_worse": [
+      29,
+      19,
+      38
+    ]
+  },
+  "stacked": {
+    "acc_mean": 0.8440966010733454,
+    "acc_std": 0.13225986373208806,
+    "f1_mean": 0.8425902838264719,
+    "pooled_acc": 0.8441407385867985,
+    "confusion_[[TN,FP],[FN,TP]]": [
+      [
+        1494,
+        225
+      ],
+      [
+        311,
+        1409
+      ]
+    ],
+    "diff_vs_eda_mean": 0.003205128205128204,
+    "participants_better_same_worse": [
+      22,
+      45,
+      19
+    ]
+  },
+  "stacked_weights_mean_[eda,video]": [
+    5.499632383988816,
+    1.992433730056007
+  ],
+  "stacked_weights_std_[eda,video]": [
+    0.015905903272514475,
+    0.026198362007323544
+  ]
+}

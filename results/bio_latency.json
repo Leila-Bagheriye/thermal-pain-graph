@@ -1,0 +1,10 @@
+{
+  "participants": 10,
+  "windows": 400,
+  "feature_ms_per_window": 0.6298,
+  "csv_read_ms_per_window": 15.744,
+  "train_s_per_fold": 0.0058,
+  "test_ms_per_window": 0.4267,
+  "total_ms_per_window_excl_io": 1.0565,
+  "parameters": 40
+}
